@@ -4,6 +4,9 @@ def modes(data):
     counted = Counter(data)
     ordered = counted.most_common()
 
+    if not ordered:
+        return []
+
     max_occ = ordered[0]
     min_occ = ordered[-1]
 
