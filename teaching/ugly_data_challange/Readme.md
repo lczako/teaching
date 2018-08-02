@@ -13,9 +13,9 @@ Your solution should be very similar than the file under clean_csv_file/.
 
 ### Useful resources
 
-[Regex tutorial for beginners](https://regexone.com/)
-[Advanced Regex tutorial](https://www.rexegg.com/regex-disambiguation.html)
-[Regex challenges](https://alf.nu/RegexGolf)
+* [Regex tutorial for beginners](https://regexone.com/)
+* [Advanced Regex tutorial](https://www.rexegg.com/regex-disambiguation.html)
+* [Regex challenges](https://alf.nu/RegexGolf)
 
 #### Source file
 [bigdataball.com](https://www.bigdataball.com/nba-historical-playbyplay-dataset/)
