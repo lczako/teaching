@@ -1,4 +1,4 @@
-# Let's implement reduce
+# Let's implement reduce for multiplication
 
 def process_data(data):
     return reduce([a - b for a,b in data])
@@ -13,6 +13,3 @@ def reduce(items):
             return a * b[0]
 
     return multiply(items[0], items[1:])
-
-print(reduce([1, 2, 3]))
-
