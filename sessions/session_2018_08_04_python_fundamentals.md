@@ -91,8 +91,8 @@ my_items = my_dict.items()
 
 #### Dictionary challenges
 
-[The Hidden Word](https://www.codewars.com/kata/the-hidden-word/train/python)
-[Swap items in a dictionary](https://www.codewars.com/kata/swap-items-in-a-dictionary)
+* [The Hidden Word](https://www.codewars.com/kata/the-hidden-word/train/python)
+* [Swap items in a dictionary](https://www.codewars.com/kata/swap-items-in-a-dictionary)
 
 ### Tuples
 
@@ -111,8 +111,8 @@ my_tuple[2]
 
 ### Useful tutorial videos
 
-[Lists, tuples and sets](https://www.youtube.com/watch?v=W8KRzm-HUcc)
-[Dictionaries](https://www.youtube.com/watch?v=daefaLgNkw0&t=42s)
+* [Lists, tuples and sets](https://www.youtube.com/watch?v=W8KRzm-HUcc)
+* [Dictionaries](https://www.youtube.com/watch?v=daefaLgNkw0&t=42s)
 
 
 ## Modes Kata
