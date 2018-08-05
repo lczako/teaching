@@ -1,6 +1,6 @@
 # Python fundamentals (2018-08-04)
 
-## Built-in functions 
+## Built-in functions
 
 [All built in functions](https://docs.python.org/3/library/functions.html)
 
@@ -24,7 +24,7 @@ my_empty_list = []
 # List with one item
 my_one_item_list = ['apple']
 
-# List with multiple items 
+# List with multiple items
 mylist = ['aba', 'daba', 'aaab']
 
 ```
@@ -58,7 +58,7 @@ my_list.append('bbba')
 ### Dictionaries
 
 Unordered collection of key, value pairs, where the key is a unique identifier where we can find our data and the value is our data.
- Dictionaries are constructed using curly brackets. 
+ Dictionaries are constructed using curly brackets.
 ```python
 # Construct empty dictionary
 my_empty_dict = {}
@@ -94,7 +94,7 @@ my_items = my_dict.items()
 [The Hidden Word](https://www.codewars.com/kata/the-hidden-word/train/python)
 [Swap items in a dictionary](https://www.codewars.com/kata/swap-items-in-a-dictionary)
 
-### Tuples 
+### Tuples
 
 A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
 
@@ -105,7 +105,7 @@ my_tuple = (1, 'a', 12, 'cat')
 
 my_tuple[2]
 # 12
-``` 
+```
 
 [More about tuples](https://www.tutorialspoint.com/python/python_tuples.htm)
 
@@ -121,7 +121,7 @@ my_tuple[2]
 def modes(data):
     # modes function waits for a parameter 'data' which is a sequence. It can be a string, list, etc..
 
-    # Empty dict we'll use to store item counts. 
+    # Empty dict we'll use to store item counts.
     counts = {}
 
     # Populate the dict. The items in data will be used as keys and the values will be the number occurrence of that item in the list
@@ -132,7 +132,7 @@ def modes(data):
         else:
             # Here we make sure that the key is present in the dictionary and set it to 1
             counts[key] = 1
-            
+
     # Our counts dictionary is populated, print it out to make it more understandable
     print(counts)
 
