@@ -1,0 +1,63 @@
+# Python fundamentals (2018-08-06)
+
+## Useful resources
+
+* [Notes about Booleans](http://thomas-cokelaer.info/tutorials/python/boolean.html)
+
+
+```python
+
+def modes(data):
+    # Checks if data is an empty list, if it is returns an empty list
+    if not data:
+        return []
+    
+    # Empty dict we'll use to store item counts.
+    counts = {}
+
+    # Iterates through on the items in data
+    for item in data:
+        print('Item: '+item, end=', ')
+        print('Result of condition '+str(item in counts), end=', ')
+        if item in counts:
+            print('Increased the value with one', end=', ')
+            counts[item] += 1
+        else:
+            print('Created the key with value 1', end=', ')
+            counts[item] = 1
+        print(counts)
+
+    print('Final state of counts '+str(counts))
+
+    # We are looking for the most frequent items from data
+    max_occurrence = max(counts.values())
+    
+    # But we need to make sure that not all items have the same occurrence
+    min_occurrence = min(counts.values())
+
+    print('Max '+str(max_occurrence))
+    print('Min '+str(min_occurrence))
+
+    # If the maximum occurrence equals the minimum, we don't have mode
+    if max_occurrence == min_occurrence:
+        return []
+
+    result = []
+    print('counts.items() '+str(counts.items()))
+    for item_in_dict in counts.items():
+        item_from_data = item_in_dict[0]
+        occurrence = item_in_dict[1]
+
+        if max_occurrence == occurrence:
+            result.append(item_from_data)
+
+    return sorted(result)
+
+
+my_list = ['d', 'd', 'd', 'a', 'a', 'b', 'c', 'c', 'c']
+empty_list = []
+
+
+print('Result ', modes(my_list))
+
+```
